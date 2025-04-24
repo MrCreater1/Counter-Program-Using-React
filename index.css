@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background-color: rgb(41, 6, 55);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.Heading{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  background-color: cornflowerblue;
+}
+.counter-container {
+  backdrop-filter: blur(5px);
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%,0.1);
+  
+}
+.counterDisplay {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  gap: 40px;
+  border: none;
+  margin-bottom: 50px;
+}
+.button1 {
+  background-color: orange;
+  padding: 10px;
+  border: none;
+  border-radius: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+     margin-bottom: 50px;
+}
+.button1:hover{
+  background-color: rgb(223, 151, 17)
+}
+.button2 {
+  background-color: aqua;
+  padding: 10px;
+  border: none;
+  border-radius: 40px;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+     margin-bottom: 50px;
+}
+.button2:hover{
+  background-color:rgb(14, 208, 208);
+}
+.button3 {
+  background-color: violet;
+  padding: 10px;
+  border: none;
+  border-radius: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+     margin-bottom: 50px;
+}
+.button3:hover{
+  background-color: rgb(221, 13, 221)
+}
